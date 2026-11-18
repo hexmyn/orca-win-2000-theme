@@ -1,0 +1,34 @@
+{
+  "manifestVersion": 2,
+  "id": "service-pack-sky",
+  "name": "Service Pack Sky",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "A Windows 2000-inspired light theme with sky-blue tabs, warm gray panels, classic editor inks and a midnight-blue console.",
+  "license": "MIT",
+  "repository": "https://github.com/hexmyn/orca-service-pack-sky",
+  "engines": {
+    "orca": ">=1.4.262"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "service-pack-sky",
+        "title": "Service Pack Sky",
+        "path": "themes/service-pack-sky.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "service-pack-sky",
+        "title": "Service Pack Sky",
+        "path": "terminal/service-pack-sky.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Illustrated palette preview with sky-blue tabs, a warm gray workspace tree, a light editor and a navy terminal."
+  }
+}
